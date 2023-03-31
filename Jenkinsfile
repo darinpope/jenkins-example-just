@@ -8,7 +8,7 @@ pipeline {
     }
     stage('run') {
       steps {
-        sh 'just'
+        sh 'just build'
       }
     }
   }
