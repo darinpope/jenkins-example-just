@@ -6,5 +6,10 @@ pipeline {
         sh 'just --help'
       }
     }
+    stage('run') {
+      steps {
+        sh 'just'
+      }
+    }
   }
 }
